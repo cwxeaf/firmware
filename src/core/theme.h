@@ -3,8 +3,8 @@
 #include "sd_functions.h"
 #include <ArduinoJson.h>
 
-#define DEFAULT_PRICOLOR 0xA80F
-#define DEFAULT_SECCOLOR 0xCB76
+#define DEFAULT_PRICOLOR 0xFD20   // Flipper Orange
+#define DEFAULT_SECCOLOR 0xC300   // чуть темнее
 
 struct themeFiles {
     String wifi = "";
